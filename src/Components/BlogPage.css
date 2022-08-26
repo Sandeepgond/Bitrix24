@@ -1,0 +1,107 @@
+.navbarManipulation{
+    margin-top: 100px;
+}
+.blog{
+    /* margin-top: -5px; */
+    color:white;
+    height: 100px;
+    padding-top:35px;
+    margin-left: -58%;
+    background-color: #39B0F3;
+    font-size:50px;
+}
+.blogGrid{
+    width: 67%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 5%;
+    padding-top: 40px;
+    /* margin-bottom: 20px; */
+}
+.blogGrid>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     /* margin-top: 100px; */
+     padding-bottom: 30px;
+     height: auto;
+}
+.blogGrid>div>img{
+    width: 100%;
+}
+.blogGrid>div>h2{
+    color:#262626;
+    text-align: left;
+    margin-left: 8%;
+    padding-right: 5%;
+    font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    letter-spacing: normal;
+    font-size: 27px;
+    font-weight: 100;
+    margin-bottom: 40px;
+    /* line-height: 28.8px; */
+}
+.blogGrid>div>p{
+    text-align: left;
+    margin-left: 8%;
+    padding-right: 5%;
+    font-size: 18px;
+    line-height: 30.8px;
+    color:#262626;
+    padding-right: 10%;
+    letter-spacing: normal;
+
+}
+.blogGrid>div>button{
+    padding: 5px 20px 5px 20px;
+    color: #262626;
+    border: 1px solid #262626;
+    border-radius: 50px;
+    margin-left: -60%;
+    margin-top: 30px;
+    font-size: 12px;
+    background-color: white;
+}
+.blogGrid>div>div>p{
+    color: #0071bd;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.free{
+    background-color: #00AEEF;
+    /* border: 1px solid red ; */
+    height: 320px;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.free>h1{
+    padding-top: 40px;
+   font-size: 30px;
+   font-weight: 200;
+   font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+.free>p{
+    font-size: 20px;
+    line-height: 36px;
+    font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+.free>button{
+    font-size: 14px;
+    border: 3px solid white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    background-color: #00AEEF;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+.footerManipulation{
+    margin-top: 150px;
+    margin-bottom: 23px;
+}

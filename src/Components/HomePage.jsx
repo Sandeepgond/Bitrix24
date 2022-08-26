@@ -1,8 +1,9 @@
 import { Navbar } from "./Navbar";
 import  "./HomePage.css"
-export function Home(){
+import { Footer } from "./Footer";
+export default function Home(){
     return (
-        
+        <>
         <div>
             <Navbar/>
             <h1 className="head1">Bitrix24. Your ultimate workspace.</h1>
@@ -249,8 +250,8 @@ export function Home(){
          </div>
          <p className="head4">Ready to try?</p>
            <button className="center-btn">REGISTER FREE</button>
-        
-        
         </div>
+        <Footer/>
+        </>
     )
 }
