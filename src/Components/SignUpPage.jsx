@@ -1,7 +1,10 @@
-export function SignUp(){
+export default function SignUp(){
     return (
-        <div>
-
-        </div>
+        <>
+            <div className="maindiv">
+                <div></div>
+                <div></div>
+            </div>
+        </>
     )
 }
