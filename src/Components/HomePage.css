@@ -220,7 +220,8 @@ hr{
     /* border: 1px solid green; */
     width: 17%;
 }
-.partnerLogo>div>img{
+
+.partnerLogo>div>img{ 
     width: 100%;
 }
 .head3{

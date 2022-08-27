@@ -1,6 +1,7 @@
 import { Navbar } from "./Navbar";
 import  "./HomePage.css"
 import { Footer } from "./Footer";
+import { Link } from "react-router-dom"
 export default function Home(){
     return (
         <>
@@ -31,8 +32,7 @@ export default function Home(){
                     </div>
                     
                 </div>
-                <div> <button className="left_btn">START FOR FREE</button></div>
-               
+                <div> <Link to="/signup"><button className="left_btn">START FOR FREE</button></Link></div>              
             </div>
         
             <h1 className="head2">How much is Bitrix24?</h1>
@@ -249,7 +249,7 @@ export default function Home(){
             </div>
          </div>
          <p className="head4">Ready to try?</p>
-           <button className="center-btn">REGISTER FREE</button>
+           <Link to="/signup"><button className="center-btn">REGISTER FREE</button></Link>
         </div>
         <Footer/>
         </>

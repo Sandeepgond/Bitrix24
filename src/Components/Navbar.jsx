@@ -15,7 +15,7 @@ export function  Navbar () {
             <div>SUPPORT</div> 
         </div>
         <div id="navend">
-        <div> <Link to ="/Signup"><button class="signup">START FOR FREE</button> </Link></div>
+        <div> <Link to="/signup"><button class="signup-1">START FOR FREE</button> </Link></div>
             <div><Link  to="/login">LOGIN</Link></div>
             <div>EN</div>
            
