@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Footer.css"
 export function Footer (){
     return (
@@ -6,8 +7,8 @@ export function Footer (){
         <div className="uppercontent">
             <div>
                  <h4>BITRIX</h4>
-                 <p>Bitrix24</p>
-                 <p>Pricing</p>
+                 <p><Link style={{color: 'white'}} to="/">Bitrix24</Link></p>
+                 <p ><Link style={{color: 'white'}} to="/prices/">Pricing</Link></p>
                  <p>Media kit</p>
                  <p>Contact us</p>
                  <p>In the press</p>
@@ -24,7 +25,7 @@ export function Footer (){
             </div>
             <div>
                  <h4>RESOURCES</h4>
-                 <p>Blog</p>
+                 <p><Link style={{color: 'white'}} to="/blogs">Blog</Link></p>
                  <p>Solutions</p>
                  <p>Testimonials</p>
                  <p>Alternatives</p>
